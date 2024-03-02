@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.674);
+   
+    align-items: center;
+
+}
+
+nav>a{
+    text-decoration: none;
+    margin:20px;
+    color: rgba(0, 0, 0, 0.674);
+    border:solid;
+    border-color:rgba(0, 0, 0, 0.674);
+    border-width: 0 1px 0 0;
+    padding: 0 10px;
+}
+
+nav>#name{
+    border:solid;
+    border-color: rgba(0, 0, 0, 0.674);
+    border-width: 0 1px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+nav>#name>a{
+    text-decoration: none;
+    margin:20px;
+    color: rgba(0, 0, 0, 0.674);
+}
+
+#sidebar{
+    width: 35vw;
+    background-color: #E3E1D9;
+}
+
+#sidebar>#photo{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 3.5vw;
+    top: 1vw;
+    margin: 1vw;
+}
+
+#sidebar>h1{
+    position: relative;
+    left: 3.5vw;
+    margin: 1vw;
+    color: rgba(0, 0, 0, 0.886);
+}
+
+#sidebar>h5{
+    position: relative;
+    left: 3.5vw;
+    margin: 1vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.674);;
+}
+
+#sidebar>hr{
+    position: relative;
+    left: 3.5vw;
+    margin:3.5vw 1vw;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.674);;
+}
+
+#sidebar>b{
+    position: relative;
+    left: 3.5vw;
+    margin: 1vw;
+}
+
+#sidebar>p{
+    position: relative;
+    left: 3.5vw;
+    margin: 1vw;
+}
+
+#sidebar>button{
+    position: relative;
+    left: 3.5vw;
+    margin: 1vw;
+    padding: 0.8vw 1.5vw;
+    font-weight: bold;
+    background: transparent;
+    border: solid;
+    border-width: 0.8px;
+    border-color: rgba(0, 0, 0, 0.674);
+
+}
